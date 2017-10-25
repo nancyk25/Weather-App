@@ -1,0 +1,76 @@
+body {
+ font-family: 'Quicksand', sans-serif;
+ text-align: center;
+ background: white;
+
+}
+
+
+.header {
+  margin-bottom: 30px;
+  
+}
+
+.weather-info {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  postion: relative;
+  margin-top: 180px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+#temp {
+  position: relative;
+  padding: 10px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 130px;
+}
+
+#city {
+  font-size: 20px;
+}
+
+#desc {
+  font-size: 20px;
+}
+
+#toggle-unit{
+  position: relative;
+  margin-top: 10px;
+  right: -20px;
+  bottom: 50px;
+  font-size: 30px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+figure {
+  position: relative;
+  bottom: 130px;
+  right: 130px;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+}
+
+.icon {
+  position: absolute;
+  bottom: 33px;
+  right: -11px;
+  margin: 0 auto;
+  width: 74px;
+  height: 74px;
+}
+
+#daily-quote {
+  font-style: italic;
+}
+
+
